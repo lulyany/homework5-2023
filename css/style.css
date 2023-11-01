@@ -92,9 +92,9 @@ a:visited{
 @media print{
     
     /* TODO: remember to delete */
-    @page {
+    /* @page {
         size: portrait;
-    }
+    } */
 
     body {
         font-family: Arial, Helvetica;
