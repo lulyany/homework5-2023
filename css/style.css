@@ -26,6 +26,7 @@ a:visited{
     border-radius: 50px 50px 0 0;
     margin: 0;
     /* width: 100%; */
+    justify-content: center;
 }
 
 /* .card > header{
@@ -59,6 +60,15 @@ a:visited{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+#logo{
+    animation: logo 5s 1;
+}
+
+@keyframes logo{
+    from {width: 25px;}
+    to {width: 475px;}
 }
 
 @media screen and (min-width: 900px) {
