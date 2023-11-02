@@ -41,6 +41,7 @@ a:visited{
     border-radius: 50px 50px 0 0;
     margin: 0;
     /* width: 100%; */
+    /* Add justify-content here to center the price, though the price in example screenshot isn't centered   */
     justify-content: center;
 }
 
